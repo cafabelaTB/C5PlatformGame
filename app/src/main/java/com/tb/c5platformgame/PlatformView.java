@@ -35,6 +35,8 @@ public class PlatformView  extends SurfaceView implements Runnable{
 
         ourHolder = getHolder();
         paint = new Paint();
+
+        vp = new Viewport(screenWidth, screenHeight);
     }
 
     @Override
