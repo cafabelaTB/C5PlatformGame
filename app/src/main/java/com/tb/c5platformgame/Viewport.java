@@ -15,7 +15,7 @@ public class Viewport {
     private int metresToShowY;
     private int numClipped;
 
-    Viewport(int x, int y){
+    public Viewport(int x, int y){
 
         screenXResolution = x;
         screenYResolution = y;

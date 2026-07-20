@@ -4,7 +4,7 @@ import android.content.Context;
 
 public class Player extends GameObject {
 
-    Player(Context context, float worldStartX, float worldStartY, int pixelsPerMetre){
+    public Player(Context context, float worldStartX, float worldStartY, int pixelsPerMetre){
 
         final float HEIGHT = 2;
         final float WIDTH = 1;
@@ -12,7 +12,7 @@ public class Player extends GameObject {
         setHeight(HEIGHT);
         setWidth(WIDTH);
 
-        settype('p');
+        setType('p');
 
         setBitmapName("player");
 

@@ -4,7 +4,6 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.Rect;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -29,7 +28,7 @@ public class PlatformView  extends SurfaceView implements Runnable{
     private Viewport vp;
     InputController ic;
 
-    PlatformView(Context context, int screenWidth, int screenHeight){
+    public PlatformView(Context context, int screenWidth, int screenHeight){
         super(context);
         this.context = context;
 
